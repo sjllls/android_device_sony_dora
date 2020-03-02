@@ -29,8 +29,5 @@ TARGET_KERNEL_CONFIG := dora_defconfig
 # NFC
 NXP_CHIP_FW_TYPE := PN547C2
 
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
 # Inherit from the proprietary version
 -include vendor/sony/dora/BoardConfigVendor.mk
