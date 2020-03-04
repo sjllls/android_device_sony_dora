@@ -26,10 +26,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Inherit from tone-common
 $(call inherit-product, device/sony/tone-common/platform.mk)
 
-# NFC Permissions
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
@@ -44,11 +40,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/keylayout/qpnp_pon.kl:system/usr/keylayout/qpnp_pon.kl \
     $(LOCAL_PATH)/keylayout/synaptics_dsx.kl:system/usr/keylayout/synaptics_dsx.kl
-
-# NFC
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    $(LOCAL_PATH)/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
 
 # Thermal
 PRODUCT_COPY_FILES += \
