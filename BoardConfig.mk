@@ -23,11 +23,23 @@ DEVICE_PATH := device/sony/dora
 # Assert
 TARGET_OTA_ASSERT_DEVICE := dora
 
+# BCM
+BOARD_HAVE_BLUETOOTH_BCM := true
+BOARD_HAVE_BCM_FM := true
+
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+
 # Kernel
 TARGET_KERNEL_CONFIG := dora_defconfig
 
 # NFC
+NXP_CHIP_TYPE := PN547C2
 NXP_CHIP_FW_TYPE := PN547C2
+
+# WiFi
+WIFI_BUS := PCIE
+
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Inherit from the proprietary version
 -include vendor/sony/dora/BoardConfigVendor.mk

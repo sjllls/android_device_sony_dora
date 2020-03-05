@@ -25,6 +25,10 @@ $(call inherit-product, device/sony/dora/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREBUILT_DPI := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_dora
 PRODUCT_DEVICE := dora
