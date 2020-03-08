@@ -33,7 +33,6 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
 TARGET_KERNEL_CONFIG := dora_defconfig
 
 # NFC
-NXP_CHIP_TYPE := PN547C2
 NXP_CHIP_FW_TYPE := PN547C2
 
 # WiFi
