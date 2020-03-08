@@ -25,7 +25,7 @@ TARGET_OTA_ASSERT_DEVICE := dora
 
 # BCM
 BOARD_HAVE_BLUETOOTH_BCM := true
-BOARD_HAVE_BCM_FM := true
+BOARD_HAVE_BCM_FM := false
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
 
