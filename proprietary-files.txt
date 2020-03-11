@@ -10,6 +10,7 @@ vendor/camera/SEM13BS0/focus_stats_conv.dat
 vendor/camera/SEM13BS0/food_comp_yummy.dat
 vendor/camera/SEM13BS0/food_detector.dat
 vendor/camera/SEM13BS0/hal_ctrl.dat
+vendor/camera/SEM13BS0/hal_ctrl_platform.dat
 vendor/camera/SEM13BS0/hal_ctrl_platform_abf.dat
 vendor/camera/SEM13BS0/hal_ctrl_platform_asf_lin.dat
 vendor/camera/SEM13BS0/hal_ctrl_platform_asf_stp.dat
@@ -46,6 +47,7 @@ vendor/camera/SOI13BS0/focus_stats_conv.dat
 vendor/camera/SOI13BS0/food_comp_yummy.dat
 vendor/camera/SOI13BS0/food_detector.dat
 vendor/camera/SOI13BS0/hal_ctrl.dat
+vendor/camera/SOI13BS0/hal_ctrl_platform.dat
 vendor/camera/SOI13BS0/hal_ctrl_platform_abf.dat
 vendor/camera/SOI13BS0/hal_ctrl_platform_asf_lin.dat
 vendor/camera/SOI13BS0/hal_ctrl_platform_asf_stp.dat
@@ -82,6 +84,7 @@ vendor/camera/SOI25BS4/focus_stats_conv.dat
 vendor/camera/SOI25BS4/food_comp_yummy.dat
 vendor/camera/SOI25BS4/food_detector.dat
 vendor/camera/SOI25BS4/hal_ctrl.dat
+vendor/camera/SOI25BS4/hal_ctrl_platform.dat
 vendor/camera/SOI25BS4/hal_ctrl_platform_abf.dat
 vendor/camera/SOI25BS4/hal_ctrl_platform_asf_lin.dat
 vendor/camera/SOI25BS4/hal_ctrl_platform_asf_stp.dat
@@ -107,8 +110,6 @@ vendor/camera/SOI25BS4/multiframe_nr_toppo.dat
 vendor/camera/SOI25BS4/object_tracker.dat
 vendor/camera/SOI25BS4/prc_image_conv.dat
 vendor/camera/SOI25BS4/scene_detector.dat
-vendor/camera/SOI25BS4_BU64747GWZ_XCF.dat
-vendor/camera/SOI25BS4_BU64747GWZ_XFW.dat
 vendor/camera/default.dat
 vendor/camera/flash.dat
 vendor/camera/SEM13BS0_LC898217XC.dat
