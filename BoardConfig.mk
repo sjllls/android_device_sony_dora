@@ -39,7 +39,7 @@ NXP_CHIP_FW_TYPE := PN547C2
 # WiFi
 WIFI_BUS := PCIE
 
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
 -include vendor/sony/dora/BoardConfigVendor.mk
