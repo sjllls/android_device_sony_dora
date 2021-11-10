@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from dora device
 $(call inherit-product, device/sony/dora/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common phone stuff.
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_dora
+PRODUCT_NAME := aosp_dora
 PRODUCT_DEVICE := dora
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia X Performance

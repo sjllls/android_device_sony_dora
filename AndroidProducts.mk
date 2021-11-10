@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dora.mk
+    $(LOCAL_DIR)/aosp_dora.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_dora-user \
-    lineage_dora-userdebug \
-    lineage_dora-eng
+    aosp_dora-user \
+    aosp_dora-userdebug \
+    aosp_dora-eng
