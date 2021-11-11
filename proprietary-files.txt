@@ -1,0 +1,113 @@
+# Audio libraries
+etc/permissions/audiosphere.xml
+framework/audiosphere.jar
+
+# Bluetooth (aptX) - from crosshatch - QP1A.190711.020
+product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+
+# CNE - from daisy' xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.7.0.QDLMIXM
+system/etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
+system/etc/cne/Nexus/ROW/ROW_profiles.xml|238e785e9674b27c4b2365958d127533d7293132
+system/etc/cne/Nexus/VZW/VZW_profiles.xml|0f63b632e3a3f114def7aeadaabd13851c8ceec5
+product/lib64/com.quicinc.cne.api@1.0.so:system_ext/lib64/com.quicinc.cne.api@1.0.so|06764410022518f75a8e7fa1de35b7577cdbe8f9
+product/lib64/com.quicinc.cne.api@1.1.so:system_ext/lib64/com.quicinc.cne.api@1.1.so|8940ad6defe4ffba387a259a698c2def51f1d5fa
+product/lib64/com.quicinc.cne.constants@1.0.so:system_ext/lib64/com.quicinc.cne.constants@1.0.so|e2f9123a013c2c116b02a1e057870f885808f654
+product/lib64/com.quicinc.cne.constants@2.0.so:system_ext/lib64/com.quicinc.cne.constants@2.0.so|b58e07086d9992d0911391ad185f277e1cfd4fe5
+product/lib64/com.quicinc.cne.constants@2.1.so:system_ext/lib64/com.quicinc.cne.constants@2.1.so|92fc6a953b061fea1895e58fa298ce8de8a6d03c
+
+# DPM - from daisy' xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.7.0.QDLMIXM
+product/bin/dpmd:system_ext/bin/dpmd|cac8f3eadeeec202f56d5b5f7a8c75e82e376d9f
+product/etc/dpm/dpm.conf:system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
+product/etc/init/dpmd.rc:system_ext/etc/init/dpmd.rc|7f95195a89fddce06b93006a737701270e91f669
+product/etc/permissions/com.qti.dpmframework.xml:system_ext/etc/permissions/com.qti.dpmframework.xml|4613f8b8629d0b823e6aaab45d399ac30da06c09
+product/etc/permissions/dpmapi.xml:system_ext/etc/permissions/dpmapi.xml|0991b3069308620cfcad53873e9f09af181b981d
+product/framework/com.qti.dpmframework.jar:system_ext/framework/com.qti.dpmframework.jar|e39a7e06af2d1e95a3724c19c36b8716277f53a1
+product/framework/dpmapi.jar:system_ext/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
+product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
+product/lib64/libdpmctmgr.so:system_ext/lib64/libdpmctmgr.so|7ee0d1d40a8fc7fea924602db13717235ed2c2aa
+product/lib64/libdpmfdmgr.so:system_ext/lib64/libdpmfdmgr.so|cb0157da0ffe6827471662a5b7881e85165cb5aa
+product/lib64/libdpmframework.so:system_ext/lib64/libdpmframework.so|8b2183e4b50a033b10c640cbc0b14a39ed5dca16
+product/lib64/libdpmtcm.so:system_ext/lib64/libdpmtcm.so|a98ab3c419ebe49c6f3351ef4fa64ebda65d0e7d
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk:system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
+
+# Postprocessing - from daisy' xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.7.0.QDLMIXM
+product/lib64/vendor.display.color@1.0.so|e90c75046ba1f6f677b9f719caaae8d91d1a5cde
+product/lib64/vendor.display.postproc@1.0.so|2c389d80a5c5cc87608babf29a056a74d69697e4
+product/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|e28476fe7646ba4467cf4c8ff6417135bc1421c7
+product/lib/vendor.display.color@1.0.so|4f7b1fe1b7486cd5672dec7250241b60ab321298
+product/lib/vendor.display.postproc@1.0.so|331faf805fc4f373456a3ce9dcd0706ce7bc0622
+product/lib/vendor.qti.hardware.qdutils_disp@1.0.so|8e1608876dcdd4925999e0f4f34603f53c201fd1
+
+# Power-off alarm - from daisy' xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.7.0.QDLMIXM
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|46387fe02067df3c4c09ec49fff7737473ea1145
+product/framework/vendor.qti.hardware.alarm-V1.0-java.jar|69dedc62181ae26bb2fac4eaacb1f2c38eb21c31
+
+# QMI - from Gemini - Xiaomi/gemini/gemini:8.0.0/OPR1.170623.032/V10.2.2.0.OAAMIXM
+system/etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
+
+# RIL - from Gemini - Xiaomi/gemini/gemini:8.0.0/OPR1.170623.032/V10.2.2.0.OAAMIXM
+-system/app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|7d7104c26c7c1e9487d9c41d48f0e0348135cb61
+system/framework/QtiTelephonyServicelibrary.jar:system_ext/framework/QtiTelephonyServicelibrary.jar|7e6810bf7747778dc8b88da8e4357531ba9ed815
+system/framework/qcrilhook.jar:system_ext/framework/qcrilhook.jar|8a1d0edd6fb61b84d5f26140498e5d9a685e99c8
+
+# RIL - from mata - essential/mata/mata:10/QP1A.190711.122/420
+-system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|956a4017d0ba7f68e6d225e57b40d3b2bcbb4837
+
+# RIL - from daisy' xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.7.0.QDLMIXM
+product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
+product/etc/permissions/telephony_product_privapp-permissions-qti.xml:system_ext/etc/permissions/telephony_product_privapp-permissions-qti.xml|68901007ba1a48ceb1b728fc3b5483dd51b5e3a0
+product/etc/permissions/telephonyservice.xml:system_ext/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
+
+# RIL (IMS) - from Gemini - Xiaomi/gemini/gemini:8.0.0/OPR1.170623.032/V10.2.2.0.OAAMIXM
+-system/app/uceShimService/uceShimService.apk:system_ext/app/uceShimService/uceShimService.apk|6e148658d03ffbfa6cbbebf18a85dba65799e1cf
+system/lib64/com.qualcomm.qti.imscmservice@1.0.so:system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so|db1f7abf26dfe1d13f7a7697ef5c7674bfea55d4
+system/lib64/lib-imscamera.so:system_ext/lib64/lib-imscamera.so|644cd3e65e35fa7931fd6bd1eaf1f0c9a815c775
+system/lib64/lib-imsvideocodec.so:system_ext/lib64/lib-imsvideocodec.so|f49373b405d73645a6b9b4ce5734993275a88d25
+system/lib64/lib-imsvt.so:system_ext/lib64/lib-imsvt.so|e06c778bdd9bc69f416381b29edd82cd7b7ee018
+system/lib64/lib-imsvtextutils.so:system_ext/lib64/lib-imsvtextutils.so|f272d94b74f9ef15ef55c83477862beaec58f20a
+system/lib64/lib-imsvtutils.so:system_ext/lib64/lib-imsvtutils.so|70cea60a3f3819ed49640d6870b04e865ec527ba
+system/lib64/libdiag_system.so:system_ext/lib64/libdiag_system.so|1fd5243b460587e5eb34b2e34544a5ca35bb0d66
+system/lib64/librcc.so:system_ext/lib64/librcc.so|342313a3e12ae14e10a091ebfec3579655ff97ab
+system/lib64/vendor.qti.imsrtpservice@1.0.so:system_ext/lib64/vendor.qti.imsrtpservice@1.0.so|40d91dc845fbf48fdf894c11aa14346f7786cd73
+
+# RIL (IMS) - from daisy' xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.7.0.QDLMIXM
+-product/priv-app/ims/ims.apk:system_ext/priv-app/ims/ims.apk|9c4ca91e0ec7a567d22251d7ca0640abf13fdd7b
+product/lib64/libimscamera_jni.so:system_ext/lib64/libimscamera_jni.so|7cb89110cca94d37d68c705f12a7a5a4ee106139
+product/lib64/libimsmedia_jni.so:system_ext/lib64/libimsmedia_jni.so|3540752cc3658261ea3c909f03018eea4398f84e
+
+# TUI - from - z2_row - OPR1.170623.032.4.0.247_181017
+lib/vendor.qti.hardware.tui_comm@1.0.so|9731f132da85eb8dbecaaeb8de8aae688451de88
+lib64/vendor.qti.hardware.tui_comm@1.0.so|cb02db4598465bcb72363784245df14ac9c2adea
+
+# Wi-Fi Display - from daisy' xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.7.0.QDLMIXM
+system/bin/wfdservice|934817e5689fe6f8b54032902de58c203b8ec2e7
+system/etc/wfdconfig.xml|d07f6b0441c0aa8913865100239490fa8687a020
+system/etc/wfdconfigsink.xml|5b4a96f251fd83c2eee520d06bea2b5b159fcd36
+-system/framework/WfdCommon.jar|3440607d29511e1a671e565a2acc4d262e38a9fb
+system/lib64/libmmosal.so|9ceff2581e86d32bc2795dffb96ebe4bdc88f2f7
+system/lib64/libwfdclient.so|ef47176ace77a2e90a7c45515280b36591168ecc
+system/lib64/libwfdnative.so|279271166b8840084b93f34cebaf4242b00090d3
+system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|ae4ba4448820bae832db16c4d64bd547bff13503
+system/lib/libFileMux.so|1c713da8d18f03deb33c3211761fc07dd57d6946
+system/lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152
+system/lib/libmmparser_lite.so|c3656bbcd33d44d5b22743061261989fffd0382f
+system/lib/libmmrtpdecoder.so|c4d8d4ec093a24e2d158ffe1edb408aeb83e5edb
+system/lib/libmmrtpencoder.so|c1d969d3600a9b9a7505e4d1f18ab3ac0f111406
+system/lib/libOmxMux.so|6f1a1f5fc8f9a8683e6fb719b6fe51a68c6b0e84
+system/lib/libwfdavenhancements.so|9faebc424959e2152adf4c1e970cc451952b21f9
+system/lib/libwfdclient.so|83ee273e2e73ea9c281fcb235e7df3e98f3dc3be
+system/lib/libwfdcodecv4l2.so|e91a1ca28b6f24327a36db7bb845ff8feac44a06
+system/lib/libwfdcommonutils.so|67bb07f383a8e071401d624ae49482ff310f65d6
+system/lib/libwfdconfigutils.so|a22f6334af429bac7410e9052708cbbfb37017fe
+system/lib/libwfdmminterface.so|feb2b5323b5ce8da54b69e0fcec17e02197210fc
+system/lib/libwfdmmsink.so|b9fc0b2d454d39c9e10b22aad34af30d33337eee
+system/lib/libwfdmmsrc.so|cd7bf20683715262be75ba4c26a547f2d7329cdf
+system/lib/libwfdnative.so|675f28a48c137856be57cbd11ef80adf7c348a92
+system/lib/libwfdrtsp.so|48045ceab0d26790cae12cf4911c2a7406623800
+system/lib/libwfdservice.so|8ddad35794289805d6c855c237c9cc90161c8f66
+system/lib/libwfdsm.so|e15c5495b28fa5be0ed87f684bf39664ff3082e1
+system/lib/libwfduibcinterface.so|91a3d55861725aef0747c14809c1bd547485de66
+system/lib/libwfduibcsinkinterface.so|dbe5c8f89a37b1d2d27bc3224695b97cfc5a71e3
+system/lib/libwfduibcsink.so|b8ef4abf2c67cf5e9f187b71cda4195171bb15ed
+system/lib/libwfduibcsrc.so|58d43f5593a7c0a6929c0ed3aef02386fbc0afc8
